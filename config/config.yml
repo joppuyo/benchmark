@@ -3,7 +3,8 @@ benchmark:
   php:
     enabled: true
   disk:
-    enabled: false
+    enabled: true
+    cycles: 100
   cpu:
     enabled: true
     math:
